@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+	
+	
+	int i;
+	int arr[5];
+	printf("Please Enter 5 numbers:\n");
+	for(i=0;i<5;i++)
+	{
+		scanf("%d",&arr[i]);
+	}
+	
+	for( i=0;i<5;i++)
+	{
+		printf("%d\n",arr[i]);
+		
+	}
+	
+	return 0;
+	
+}

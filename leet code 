@@ -1,0 +1,15 @@
+#include<stdio.h>
+struct student
+{
+  char name;
+  float age;
+  int marks;
+};
+void main()
+{
+    struct student S1={'Ali',20.3,60};
+    struct student S2={'Ahmed',26.3,50};
+    struct student S3={'Ahad',28.3,60};
+    printf("%f",S1.age);
+    
+}
